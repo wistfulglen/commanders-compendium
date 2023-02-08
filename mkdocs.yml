@@ -1,3 +1,58 @@
+extra_css:
+  - stylesheets/extra.css
+
 site_name: Commander's Compendium
+site_url: https://wistfulglen.github.io/commanders-compendium/
 theme:
   name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Transition to night
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Transition to day
+  features:
+    - navigation.instant
+  icon:
+    tag:
+      hot: fontawesome/brands/hornbill
+      pof: material/fire
+      eod: simple/circle
+plugins:
+  - tags
+markdown_extensions:
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+      toc_depth: 3
+extra:
+  tags:
+    Heart of Thorns: hot
+    Path of Fire: pof
+    End of Dragons: eod
+  generator: false
+nav:
+  - Home: index.md
+  - About: about.md
+  - Strike Missions:
+    - Shiverpeaks Pass: strike-missions/shiverpeaks-pass.md
+    - Voice of the Fallen and Claw of the Fallen: strike-missions/voice-of-the-fallen-and-claw-of-the-fallen.md

@@ -1,0 +1,61 @@
+[data-md-color-scheme="github-light-default"] {
+
+  /* Primary color shades */
+  --md-primary-fg-color: #24292f;
+  --md-primary-fg-color--light: #24292f;
+  --md-primary-fg-color--dark: #24292f;
+  --md-primary-bg-color: rgb(255,255,255,1);
+  --md-primary-bg-color--light: rgb(255,255,255,0.7);
+
+  /* Accent color shades */
+  --md-accent-fg-color: rgb(9,105,218,1);
+  --md-accent-fg-color--transparent: rgb(9,105,218,0.1);
+  --md-accent-bg-color: rgb(255,255,255,1);
+  --md-accent-bg-color--light: rgb(255,255,255,0.7);
+
+  /* Default color shades */
+  --md-default-fg-color:               purple;
+  --md-default-fg-color--light:        hsla(0, 0%, 0%, 0.54);
+  --md-default-fg-color--lighter:      hsla(0, 0%, 0%, 0.32);
+  --md-default-fg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+  --md-default-bg-color:               rgb(255,255,255,1);
+  --md-default-bg-color--light:        rgb(255,255,255,0.7);
+  --md-default-bg-color--lighter:      rgb(255,255,255,0.3);
+  --md-default-bg-color--lightest:     rgb(255,255,255,0.12);
+
+  /* Code color shades */
+  --md-code-fg-color:                  #24292f;
+  --md-code-bg-color:                  #eaedf1;
+}
+
+[data-md-color-scheme="material-darker-high-contrast"] {
+
+  /* Primary color shades */
+  --md-primary-fg-color: #1a1a1a;
+  --md-primary-fg-color--light: #1a1a1a;
+  --md-primary-fg-color--dark: #1a1a1a;
+  --md-primary-bg-color: rgb(111,118,118,1);
+  --md-primary-bg-color--light: rgb(111,118,118,0.7);
+
+  /* Accent color shades */
+  --md-accent-fg-color: rgb(9,105,218,1);
+  --md-accent-fg-color--transparent: rgb(9,105,218,0.1);
+  --md-accent-bg-color: rgb(255,255,255,1);
+  --md-accent-bg-color--light: rgb(255,255,255,0.7);
+
+  /* Default color shades */
+  --md-default-fg-color:               purple;
+  --md-default-fg-color--light:        hsla(0, 0%, 0%, 0.54);
+  --md-default-fg-color--lighter:      hsla(0, 0%, 0%, 0.32);
+  --md-default-fg-color--lightest:     hsla(0, 0%, 0%, 0.07);
+  --md-default-bg-color:               rgb(33,33,33,1);
+  --md-default-bg-color--light:        rgb(33,33,33,0.7);
+  --md-default-bg-color--lighter:      rgb(33,33,33,0.3);
+  --md-default-bg-color--lightest:     rgb(33,33,33,0.12);
+
+  /* Code color shades */
+  --md-code-fg-color:                  #fff;
+  --md-code-bg-color:                  #181818;
+
+  color: #fff;
+}

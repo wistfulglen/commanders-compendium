@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to Commander's Compendium
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
