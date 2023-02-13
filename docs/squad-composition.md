@@ -5,4 +5,4 @@ tags:
   - End of Dragons
 ---
 
-# About
+# Squad Composition

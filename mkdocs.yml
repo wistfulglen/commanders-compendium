@@ -19,11 +19,7 @@ theme:
         name: Transition to day
   features:
     - navigation.instant
-  icon:
-    tag:
-      hot: fontawesome/brands/hornbill
-      pof: material/fire
-      eod: simple/circle
+    - content.code.copy
 plugins:
   - tags
 markdown_extensions:
@@ -31,6 +27,10 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - admonition
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -41,18 +41,53 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       permalink: true
       toc_depth: 3
 extra:
   tags:
+    Central Tyria: tyria
     Heart of Thorns: hot
     Path of Fire: pof
     End of Dragons: eod
+    Living World: lw
+    Daily: daily
+    Repeatable: repeatable
   generator: false
 nav:
   - Home: index.md
-  - About: about.md
+  - Squad Composition: squad-composition.md
+  - Meta Events:
+    - The Silverwastes: meta-events/the-silverwastes.md
+    - Verdant Brink: meta-events/verdant-brink.md
+    - Auric Basin: meta-events/auric-basin.md
+    - Tangled Depths: meta-events/tangled-depths.md
+    - Dragon's Stand: meta-events/dragons-stand.md
+    - Crystal Desert: meta-events/crystal-desert.md
+    - Domain of Istan: meta-events/domain-of-istan.md
+    - Jahai Bluffs: meta-events/jahai-bluffs.md
+    - Thunderhead Peaks: meta-events/thunderhead-peaks.md
+    - Dragonfall: meta-events/dragonfall.md
+    - Grothmar Valley: meta-events/grothmar-valley.md
+    - Bjora Marches: meta-events/bjora-marches.md
+    - Drizzlewood Coast: meta-events/drizzlewood-coast.md
+    - Seitung Province: meta-events/seitung-province.md
+    - New Kaineng City: meta-events/new-kaineng-city.md
+    - The Echovald Wilds: meta-events/the-echovald-wilds.md
+    - Dragon's End: meta-events/dragons-end.md
   - Strike Missions:
     - Shiverpeaks Pass: strike-missions/shiverpeaks-pass.md
     - Voice of the Fallen and Claw of the Fallen: strike-missions/voice-of-the-fallen-and-claw-of-the-fallen.md
+    - Fraenir of Jormag: strike-missions/fraenir-of-jormag.md
+    - Boneskinner: strike-missions/boneskinner.md
+    - Whisper of Jormag: strike-missions/whisper-of-jormag.md
+    - Aetherblade Hideout: strike-missions/aetherblade-hideout.md
+    - Xunlai Jade Junkyard: strike-missions/xunlai-jade-junkyard.md
+    - Kaineng Overlook: strike-missions/kaineng-overlook.md
+    - Harvest Temple: strike-missions/harvest-temple.md
+  - Misc Instances:
+    - Dragonstorm: misc-instances/dragonstorm.md
+    - The Battle For Lion's Arch: misc-instances/the-battle-for-lions-arch.md
